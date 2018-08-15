@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>首页</title>
+    <meta name="apple-touch-fullscreen" content="YES" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta http-equiv="Expires" content="-1" />
+    <meta http-equiv="pragram" content="no-cache" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <!-- 全局Css样式开始 -->
+    <link rel="stylesheet" type="text/Css" href="../assets/css/reset.css">
+    <!-- 全局Css样式结束 -->
+    <!-- 公共Css样式开始 -->
+    <link rel="stylesheet" type="text/Css" href="../assets/css/common.css">
+    <!-- 公共Css样式结束 -->
+    <!-- 轮播图Css样式开始 -->
+    <link rel="stylesheet" type="text/Css" href="../assets/js/lib/swiper-4.3.5/dist/css/swiper.min.css">
+    <!-- 轮播图Css样式结束 -->
+    <!-- 页面Css样式开始 -->
+    <link rel="stylesheet" type="text/Css" href="../assets/css/index/index.css">
+    <!-- 页面Css样式结束 -->
+
+</head>
+
+<body>
+
+  <!-- 头部开始 -->
+  <div class="header">
+    <!-- <i class="iconfont icon-fanhui"></i> -->
+    <span class="title">首  页</span>
+  </div>
+  <!-- 头部结束 -->
+
+  <div class="layer">
+    <!-- 首页轮播图开始 -->
+    <div class="banner">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="../assets/images/pic02.jpg">
+          </div>
+          <div class="swiper-slide">
+            <img src="../assets/images/pic03.jpg">
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <!-- 首页轮播图结束 -->
+
+    <!-- 卡片开始 -->
+    <div class="card">
+      <div class="card-box clearfix">
+        <a class="card-1" href="../classify/index.html">
+          <i class="iconfont icon-mianshi"></i>吃
+        </a>
+        <a class="card-2" href="../classify/index.html">
+          <i class="iconfont icon-zhusuleixing"></i>住
+        </a>
+        <a class="card-3" href="../classify/index.html">
+          <i class="iconfont icon-cheliang"></i>行
+        </a>
+        <a class="card-4" href="../classify/index.html">
+          <i class="iconfont icon-dizhi"></i>游
+        </a>
+        <a class="card-5" href="../classify/index.html">
+          <i class="iconfont icon-gouwu"></i>购
+        </a>
+        <a class="card-6" href="../classify/index.html">
+          <i class="iconfont icon-yule"></i>娱
+        </a>
+      </div>
+    </div>
+    <!-- 卡片结束 -->
+    
+    <!-- 风景介绍开始 -->
+    <div class="intro flex">
+      <div class="intro-img">
+        <img src="../assets/images/pic01.jpg">
+      </div>
+      <div class="intro-text">
+          石林风景区又称为云南石林，位于云南省昆明市石林彝族自治县境内，面积350...
+      </div>
+      <a class="intro-btn" href="../index/detail.html">了解详情>></a>
+    </div>
+    <!-- 风景介绍结束 -->
+
+  </div>
+
+  <!-- 底部开始 -->
+  <div class="footer">
+    <ul class="clearfix">
+      <li class="hover">
+        <a href="../index/index.html">
+          <i class="iconfont icon-shouye"></i>
+          <p>首页</p>
+        </a>
+      </li>
+      <li class="">
+        <a href="../arcticle/index.html">
+          <i class="iconfont icon-ai39"></i>
+          <p>资讯</p>
+        </a>
+      </li>
+      <li class="">
+        <a href="../mall/index.html">
+          <i class="iconfont icon-icon-test"></i>
+          <p>微商城</p>
+        </a>
+      </li>
+      <li class="">
+        <a href="../guide/index.html">
+          <i class="iconfont icon-dizhi01"></i>
+          <p>自导</p>
+        </a>
+      </li>
+      <li class="">
+        <a href="../user/index.html">
+          <i class="iconfont icon-gerenzhongxin"></i>
+          <p>个人中心</p>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- 底部结束 -->
+  
+
+  <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="../assets/js/lib/swiper-4.3.5/dist/js/swiper.min.js"></script>
+  <script type="text/javascript">
+    var swiper = new Swiper('.swiper-container', {
+      autoplay: true,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+
+</body>
+
+</html>

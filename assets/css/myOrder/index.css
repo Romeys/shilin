@@ -1,0 +1,98 @@
+.tab {
+  width: 100%;
+  height: 100%;
+}
+.tab-menu {
+  width:100%;
+  height:40px;
+  line-height: 40px;
+  position: fixed;
+  top: 45px;
+  background: #fff;
+  left: 0;
+  z-index: 99;
+}
+.tab-menu ul {
+  list-style:none;
+}
+.tab-menu li {
+  display:block;
+  width:25%;
+  float:left;
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  border-bottom: 1px solid #dedede;
+}
+.tab-box {
+  margin-top: 85px;
+}
+.tab-box>div {
+  display:none;
+}
+/* 让第一个框显示出来 */
+.tab-box>div:first-Child {
+  display:block;
+} 
+/* 改变选项卡选中时候的样式 */
+.tab-menu li.change {
+  color: #F23C50 !important;
+  border-bottom: 1px solid #F23C50;
+} 
+.order-list {
+  padding: 20px;
+}
+.order-list .list-box {
+  margin-bottom: 10px;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 3%;
+}
+.list-box .left {
+  width: 70%;
+}
+.list-box .order-name {
+  font-size: 15px;
+  color: #000;
+  font-weight: 800;
+}
+.list-box .order-time {
+  font-size: 12px;
+  margin: 10px 0;
+  color: #999;
+}
+.list-box .right {
+  width: 30%;
+  text-align: right;
+}
+.list-box .price {
+  color: #F23C50;
+  font-size: 16px;
+  font-weight: 800;
+  display: block;
+  margin-bottom: 20px;
+}
+.list-box .btn {
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  padding: 2px 15px;
+}
+.btn1 {
+  color: #FBD456;
+  border: 1px solid #FBD456;
+}
+.btn2 {
+  color: rgb(7, 202, 7);
+  border: 1px solid rgb(7, 202, 7);
+}
+.btn3 {
+  color: #999;
+  border: 1px solid #999;
+}

@@ -1,0 +1,124 @@
+.guide {
+  margin-top: 45px;
+  height: 100%;
+}
+.guide>img{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.swiper-container {
+  width: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.search-box {
+  padding: 20px;
+}
+.search-box .search {
+  background: #EEEEEE;
+  height: 35px;
+  line-height: 35px;
+  position: relative;
+  padding-left: 40px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.search i {
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  left: 5px;
+  text-align: center;
+}
+.search input {
+  width: 95%;
+  background: #EEEEEE;
+  border: none;
+}
+.guide-list {
+  padding: 20px;
+  padding-top: 0;
+}
+.guide-list a {
+  display: block;
+  border-bottom: 1px solid #dedede;
+  padding: 10px 0;
+}
+.guide-list a:last-child {
+  border: none;
+}
+.guide-list .guide-img {
+  width: 100px;
+  height: 100px;
+}
+.guide-list .guide-img img {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+.guide-box {
+  position: relative;
+}
+.guide-text {
+  width: 100%;
+  margin-left: 10px;
+  position: relative;
+}
+.guide-text h1 {
+  font-weight: bold;
+  color: #333;
+}
+.guide-btn {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #FBD456;
+  border: 1px solid #FBD456;
+  padding: 2px 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-size: 12px;
+}
+.guide-price {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #F23C50;
+  text-align: right;
+  font-weight: bold;
+  font-size: 18px;
+}
+.guide-price em {
+  font-size: 12px;
+  font-weight: normal;
+  color: #999;
+  margin-left: 2px;
+}

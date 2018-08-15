@@ -1,0 +1,117 @@
+.layer {
+  margin-bottom: 0;
+}
+.layer>img {
+  display: block;
+  width: 100%;
+}
+.layer>p {
+  padding: 10px;
+  padding-left: 0;
+  border-bottom: 1px solid #dedede;
+  color: #000;
+  line-height: 22px;
+  margin-left: 10px;
+}
+.layer>p i {
+  color: #4BB1D6;
+  margin-right: 5px;
+  vertical-align: -1px;
+}
+.hotel-name {
+  font-size: 15px;
+  font-weight: bold;
+}
+.border-none {
+  border: none !important;
+}
+.border5 {
+  border-top: 10px solid #EBEBEB !important;
+}
+.ticket-list .title {
+  padding: 10px;
+  border-bottom: 1px solid #dedede;
+}
+.ticket-list .title span {
+  border-left: 3px solid #4BB1D6;
+  padding: 0 10px;
+  font-weight: bold;
+  color: #333;
+}
+.list-box {
+  border-bottom: 1px solid #dedede;
+  padding:10px;
+}
+.list-box:last-child {
+  border-bottom: 10px solid #EBEBEB !important;
+}
+.hotel-img {
+  width: 60px;
+  height: 60px;
+  display: block;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  margin-right: 10px;
+}
+.ticket-name {
+  width: 47%;
+  color: #000;
+  border-right: 1px solid #dedede;
+}
+.pay {
+  color: #999;
+  margin-top: 5px;
+  font-size: 12px;
+}
+.ticket-price {
+  width: 24%;
+  padding: 0 3%;
+  text-align: center;
+  color: #F23C50;
+  font-size: 12px;
+}
+.price {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.price em {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.ticket-price a {
+  background: #FF3B3D;
+  display: block;
+  color: #fff;
+  margin-top: 5px;
+  padding: 8px 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.ticket-info {
+  padding: 10px;
+}
+.item {
+  border-bottom: 1px dashed #dedede;
+  padding: 10px 0;
+  font-size: 12px;
+}
+.item:last-child {
+  border: none;
+}
+.item h1 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+.item>div span {
+  display: block;
+  width: 33.33%;
+  margin-bottom: 5px;
+}

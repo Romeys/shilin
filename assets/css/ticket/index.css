@@ -1,0 +1,89 @@
+.layer {
+  margin-bottom: 0;
+}
+.search-box {
+  padding: 10px 20px;
+  background: #EEEEEE;
+}
+.search-box .search {
+  background: #ffffff;
+  height: 35px;
+  line-height: 35px;
+  position: relative;
+  padding-left: 40px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  overflow: hidden;
+}
+.search i {
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  left: 5px;
+  text-align: center;
+}
+.search input {
+  width: 95%;
+  background: #ffffff;
+  border: none;
+}
+.guide-list {
+  padding: 0 20px 20px 20px;
+}
+.guide-list a {
+  display: block;
+  border-bottom: 1px solid #dedede;
+  padding: 10px 0;
+}
+.guide-list a:last-child {
+  border: none;
+}
+.guide-list .guide-img {
+  width: 80px;
+  height: 80px;
+}
+.guide-list .guide-img img {
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+.guide-box {
+  position: relative;
+}
+.guide-text {
+  width: 100%;
+  margin-left: 10px;
+  position: relative;
+}
+.guide-text h1 {
+  font-weight: bold;
+  color: #333;
+}
+.guide-btn {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 12px;
+}
+.guide-btn em {
+  margin: 0 5px 0 2px;
+  color: #8D5D14;
+}
+.guide-price {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #F23C50;
+  text-align: right;
+  font-weight: bold;
+  font-size: 18px;
+}
+.guide-price em {
+  font-size: 12px;
+  font-weight: normal;
+  color: #999;
+  margin-left: 2px;
+}
