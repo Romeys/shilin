@@ -62,9 +62,9 @@
     <div class="choose-num flex">
       <div>数量</div>
       <span class="num">
-        <em class="num-btn" id="min">-</em>
-        <input id="text_box" name="" type="text" value="1" style="width:30px;text-align: center"/> 
-        <em class="num-btn" id="add">+</em> 
+        <em class="num-btn">-</em>
+        <input class="text_box" name="" type="text" value="1" style="width:30px;text-align: center"/> 
+        <em class="num-btn num-add">+</em> 
       </span>
     </div>
 
@@ -98,26 +98,17 @@
   <script type="text/javascript" src="../assets/js/lib/mobiscroll-2.13.2/script/mobiscroll.2.13.2.js"></script>
   <!-- 时间插件JS结束 -->
   <script>
-    $(document).ready(function(){
-      //获得文本框对象
-      var t = $("#text_box");
-      //初始化数量为1,并失效减
-      $('#min').attr('disabled',true);
-      //数量增加操作
-      $("#add").click(function(){ 
-        // 给获取的val加上绝对值，避免出现负数
-        t.val(Math.abs(parseInt(t.val()))+1);
-        if (parseInt(t.val())!=1){
-          $('#min').attr('disabled',false);
-        };
-      }) 
-      //数量减少操作
-      $("#min").click(function(){
-        t.val(Math.abs(parseInt(t.val()))-1);
-        if (parseInt(t.val())==1){
-          $('#min').attr('disabled',true);
-        };
-      })
+    
+    $('.num-btn').click(function(){ //给上下按钮加点击事件
+      var sinput = $(this).parents('.num').find('.text_box'); //给input定义变量
+      if($(this).hasClass('num-add')){//判断点击按钮是否有class：glyphicon-chevron-up
+        sinput.val(parseInt(sinput.val())+1);//有，为input中的值加1
+      }else{
+        if(parseInt(sinput.val()) < 2 ) {//判断input中得值是否小于1
+          return                       //是，停止动作
+        } 
+        sinput.val(parseInt(sinput.val())-1);//否,让input中得值减1
+      }
     });
 
     // 日期插件
