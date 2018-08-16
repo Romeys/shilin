@@ -53,21 +53,16 @@ body {
 }
 .choose-num .num {
   text-align: right;
+  width: 50%;
 }
 .num-btn {
+  display: inline-block;
   background: #f5f5f5;
   border: 1px solid #dedede;
   width: 24px;
   text-align: center;
-  border-radius: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
   height: 20px;
   line-height: 20px;
-  -webkit-tap-highlight-color: transparent;
-  padding: 0;
 }
 .user-info {
   background: #fff;
@@ -82,11 +77,17 @@ body {
   width: 90px;
   height: 20px;
   line-height: 20px;
+  font-size: 14px;
+}
+.item-input>div {
+  height: 20px;
+  line-height: 20px;
+  vertical-align: middle;
 }
 .item-input input {
   width: 100%;
   height: 20px;
-  line-height: 20px;
+  padding: 0;
 }
 .pay-type {
   color: #000;
